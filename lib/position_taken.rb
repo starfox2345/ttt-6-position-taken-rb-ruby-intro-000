@@ -13,7 +13,7 @@ def position_taken?(board, index)
     return true
 
 
-  if board[index] == board[index]
+  elsif board[index] == board[index]
     puts "The position #{board[index]} is already taken."
   elsif board[index] != board[index]
     puts "The position was not taken, therefore, it is now #{board[index]}"
