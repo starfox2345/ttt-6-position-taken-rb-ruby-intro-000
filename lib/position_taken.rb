@@ -11,12 +11,6 @@ def position_taken?(board, index)
     return false
   elsif board[index] == "X" || board[index]  == "O"
     return true
-
-
-  elsif board[index] == board[index]
-    puts "The position #{board[index]} is already taken."
-  elsif board[index] != board[index]
-    puts "The position was not taken, therefore, it is now #{board[index]}"
   else
     nil
   end
