@@ -15,6 +15,6 @@ def position_taken?(board, index)
 #    puts "The position #{board[index]} is already taken."
 #  elsif board[index] != board[index]
 #    puts "The position was not taken, therefore, it is now #{board[index]}"
-#  else
-#    nil
+  else
+    nil
 end
